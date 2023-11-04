@@ -31,9 +31,8 @@ img {
   display: block;
 }
 main {
-  /* width: 42vw; */
-  width: 800px;
-  height: 500px;
+  width: 730px;
+  height: 510px;
   border-radius: 30px;
   display: flex;
   box-shadow: 3px 6px 30px hsl(234, 85%, 95%);
@@ -43,10 +42,10 @@ main {
 .summary {
   display: flex;
   flex-direction: column;
-  padding: 1% 5%;
+  padding: 5% 5% 6%;
   width: 50%;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .result {
@@ -72,8 +71,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   box-sizing: border-box;
   border-radius: 50%;
   background: linear-gradient(
@@ -84,7 +83,7 @@ main {
 }
 
 .result .score span:nth-child(odd) {
-  font-size: 76px;
+  font-size: 72px;
   font-variation-settings: "wght" 800;
   color: hsl(221, 100%, 96%);
   line-height: 1.1;
@@ -111,11 +110,12 @@ main {
 }
 
 .eval span:nth-child(even) {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
   font-size: 18px;
-  font-variation-settings: "wght" 700;
-  color: hsla(221, 100%, 96%, 50%);
+  font-variation-settings: "wght" 500;
+  color: hsla(221, 100%, 96%, 80%);
   text-align: center;
 }
 
@@ -126,7 +126,7 @@ main {
   height: 320px;
   justify-content: center;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
   gap: 16px;
 }
 
@@ -149,7 +149,7 @@ main {
 
 .stats-container .stats:nth-child(1) {
   background-color: hsl(0, 100%, 98%);
-  color: hsl(0, 100%, 67%);
+  color: hsl(0, 80%, 60%);
 }
 
 .stats-container .stats:nth-child(2) {
